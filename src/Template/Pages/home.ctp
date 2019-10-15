@@ -5,7 +5,6 @@
         <div class="module-header">
             <div class="module-title half-underlined">
                 <h2>Individual Account</h2>
-                <h3>Cehcking</h3>
             </div>
             <p class="section-tagline">Easy registration of your email and phone number will get you to the world of celebrities!</p>
         </div>
@@ -14,7 +13,7 @@
                 <img src="<?php echo $this->request->webroot ?>assets/images/individual.png" class="section-iconimage"/>
             </div>
             <div class="col-lg-9 col-md-9">
-                <div class="short-content">This platform gives you access to book celebrities and professionals famous in their fields instantly. Celebrities for events such as private parties, weddings, photoshoots will be available through Individual Account portal.</div>
+                <div class="short-content"></div>
                 <div class="clearfix">&nbsp;</div>
                 <p class="pull-right"><a href="<?php echo $this->request->weboot ?>pages/registerindividual">Begin Your Registration &nbsp; <i style="margin-top:5px;" class="fa fa-long-arrow-right"></i></a> </p>
             </div> 
