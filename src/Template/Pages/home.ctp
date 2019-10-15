@@ -5,6 +5,7 @@
         <div class="module-header">
             <div class="module-title half-underlined">
                 <h2>Individual Account</h2>
+                <h3>Cehcking</h3>
             </div>
             <p class="section-tagline">Easy registration of your email and phone number will get you to the world of celebrities!</p>
         </div>
