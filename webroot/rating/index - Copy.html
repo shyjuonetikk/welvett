@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>RateYo - Scratchpad</title>
+        <meta charset="utf-8"></meta>
+        <link rel="stylesheet" href="./jquery.rateyo.min.css"/>
+    </head>
+    <body>
+
+        <div>
+            <div id="rateYo"></div>
+        </div>
+
+
+        <div class="rateyo"></div>
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="./jquery.rateyo.js"></script>
+
+        <script>
+            $(function () {
+
+                var $rateYo = $("#rateYo").rateYo({"rating": 1});
+
+                /* set the option `onChange` */
+                $rateYo.rateYo("option", "onSet", function (rating, rateYoInstance) {
+                    alert(rating);
+
+                    /* get the rated fill at the current point of time */
+                    var ratedFill = $rateYo.rateYo("option", "ratedFill");
+
+                    console.log("The color of rating is " + ratedFill);
+                });
+
+                /* set the option `multiColor` to show Multi Color Rating */
+                $rateYo.rateYo("option", "multiColor", true);
+            });
+
+        </script>
+    </body>
+</html>

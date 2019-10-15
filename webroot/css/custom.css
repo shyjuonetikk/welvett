@@ -1,0 +1,425 @@
+.skin-blue .main-header .navbar {
+    background-color: #7b1b2d;
+    padding: 5px 0px;
+    font-family: "fontello";
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+
+    background-color: #fefadf;
+
+}
+.skin-blue .main-sidebar {
+
+    border-right: 2px solid #7b1b2d;
+}
+
+.skin-blue .sidebar-menu > li.header {
+
+    color: #202339;
+    background: #fff;
+
+}
+.sidebar-menu li > a > .pull-right-container {
+
+    color: #7B1B2D;
+
+}
+.sidebar-menu > li > a > .fa, .sidebar-menu > li > a > .glyphicon, .sidebar-menu > li > a > .ion {
+
+    color: #7B1B2D;
+
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+
+    background-color: #3164CF;
+
+}
+
+.skin-blue .main-header li.user-header {
+
+    background-color: #7B1B2D;
+
+}
+.fa-circle-o::before {
+
+    color: #7B1B2D;
+
+}
+.skin-blue .sidebar-menu > li.active > a {
+
+    border-left-color: #7B1B2D;
+
+}
+
+.skin-blue .sidebar-menu > li > .treeview-menu {
+
+    margin: 0;
+    background: #fff;
+
+}
+
+
+.skin-blue .sidebar-menu .treeview-menu > li > a {
+
+    color: #202339 !important;
+    font-family: "fontello";
+
+}
+.skin-blue .sidebar-menu .treeview-menu > li > a:hover {
+
+    background-color: #3164CF !important;
+
+}
+.skin-blue .sidebar a {
+
+    color: #202339;
+    font-family: "fontello";
+
+}
+.skin-blue .sidebar-menu > li.active > a {
+
+    border-right-color: none;
+
+}
+.skin-blue .sidebar-menu > li > a {
+
+    border-right: 3px solid transparent;
+    border-left: none;
+
+}
+.skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a, .skin-blue .sidebar-menu > li.menu-open > a {
+    color: #fff;
+    background: #7B1B2D !important;
+
+}
+.skin-blue .sidebar-menu > li:hover > a > .pull-right-container, .skin-blue .sidebar-menu > li:hover > a > .fa  {
+    color: #fff;
+    background: #7B1B2D !important;
+
+}
+.skin-blue .sidebar-menu > li.active > a > .pull-right-container, .skin-blue .sidebar-menu > li.active > a > .fa  {
+    color: #fff;
+    background: #7B1B2D !important;
+
+}
+.treeview-menu{
+    padding-left: 0px;
+    border-bottom:0px !important;
+    background:#f8f8f8 !important;
+}
+.treeview-menu li a:hover .fa-circle-o::before {
+    color: #FFF !important;
+}
+
+.treeview, .treeview-menu li{
+    border: 1px solid rgba(130, 135, 169, 0.3);
+    border-right:0px;
+    border-bottom: 0px;
+}
+.skin-blue .sidebar-menu .treeview-menu > li:hover > a {
+    color: #fff !important;
+    background: #904646 !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .content-header > .breadcrumb, p, a.btn, .content-container, footer {
+
+    font-family: "fontello";
+
+}
+.actions > .btn {
+    padding: 3px 6px;
+}
+
+.user-panel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom: 20px;
+}
+
+
+.sidebar-menu {
+    margin-top: 10px;
+}
+
+.content-container {
+    min-height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f8f8f8;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px #999;
+
+}
+.panel-head-info {
+
+    max-width: 1000px;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 0px;
+
+}
+
+
+.form{
+    margin-top: 20px !important;
+}
+.form-group label{
+    text-align: left !important;
+}
+.control-label::after {
+    content: "*";
+    color: red;
+    padding: 2px;
+
+}
+.btn-blue-custom, .btn-blue-custom:hover, .btn-blue-custom:focus, .btn-blue-custom:hover:focus {
+    background: #4674e7;
+    color: #fff !important;
+    border-radius: 5px !important;
+    border: 1px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    border: 2px outset !important;
+}
+.content-header>.breadcrumb>li+li:before {
+    content: "";
+}
+.tab-pane .btn-blue-custom {
+    margin-top: -70px;
+    padding: 3px 8px !important;
+    font-family: arial;
+    font-size: 12px !important;
+}
+.actions a , .actions a:hover {
+    /*border: 2px outset;*/   
+
+}
+a + a {
+    margin-left: 5px !important;
+}
+.breadcrumb li ,.breadcrumb li a{
+    color: #7B1B2D !important;
+    font-size: 14px;
+}
+.panel-success>.panel-heading {
+    color: #3c763d;
+    background-color: #fff;
+    border-color: #d6e9c6;
+}
+table {
+    width: 100%;
+}
+table th a{
+    /*color: #000 !important;*/
+}
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+    box-shadow: -2px 2px 3px #999;
+}
+.panel-head-info .info-text{
+    color: #7B1B2D;
+    font-size: 20px;
+
+}
+.table-condensed>thead>tr>th {
+    padding: 10px;
+}
+.custom_circle{
+    color: #904646;
+}
+a{
+    color: #904646;
+}
+
+a:hover{
+
+    color: #904646;
+
+}
+.form-control{
+    border-color: #e5e5e5 !important;
+    border-radius: 5px;
+    padding: 7px 20px;
+    line-height: 1.2em;
+}
+textarea.form-control{
+    border-color: #e5e5e5 !important;
+    border-radius: 5px;
+    padding: 7px 30px;
+    line-height: 1.2em;
+    resize: none;
+}
+.red_border{
+    border: 1px solid red !important;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+
+    color: #fff;
+    cursor: default;
+    background-color: #7B1B2D !important;
+    border: 1px solid #ddd;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-color: transparent;
+
+}
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    color: #904646 !important;
+
+}
+
+.content-wrapper {
+
+    min-height: 100%;
+    background-color: #fff;
+    z-index: 800;
+
+}
+
+h1{
+    font-size: 3.998em !important;
+    font-weight: 500;
+}
+h3{
+    margin: 5px 0px;
+}
+
+.success {
+
+    color: #4F8A10;
+    background-color: #DFF2BF;
+
+}
+
+.error {
+
+    color: #D8000C;
+    background-color: #FFBABA;
+
+}
+
+.success, .error {
+
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+
+
+}
+
+.vertical-table tr th, .vertical-table tr td{
+    padding: 10px 20px !important;
+    width: 50% !important;
+}
+
+.login{
+    width: 80%;
+
+    margin: 20px auto auto;
+    margin-top: 50px !important;
+
+    background: rgb(248, 248, 248) none repeat scroll 0% 0%;
+
+    padding: 20px;
+
+
+    box-shadow: 2px 3px 5px #666;
+    max-width: 600px !important;
+}
+
+#assign_project{
+    padding: 20px 10px;
+}
+.content-wrapper{
+    padding-bottom: 20px;
+}
+.content-container table th{
+    width: 120px;
+}
+
+.jconfirm .jconfirm-box div.title-c .title {
+
+    color: #904646 !important;
+
+}
+
+.step2-btn{
+    margin-top: -65px;
+    padding: 9px 17px !important;
+    font-size: 16px !important;
+}
+.step3-btn, .save-btn{
+    padding: 9px 17px !important;
+    font-size: 16px !important;
+}
+.pre1-btn, .pre2-btn{
+    padding: 9px 17px !important;
+    font-size: 16px !important;
+}
+
+/****NO MORE TABLE CSS START****/
+@media only screen and (max-width: 800px) {
+
+    /* Force table to not be like tables anymore */
+    #no-more-tables table, 
+    #no-more-tables thead, 
+    #no-more-tables tbody, 
+    #no-more-tables th, 
+    #no-more-tables td, 
+    #no-more-tables tr { 
+        display: block; 
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #no-more-tables thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #no-more-tables tr { border: 1px solid #ccc; }
+
+    #no-more-tables td { 
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 50%; 
+        white-space: normal;
+        text-align:left;
+    }
+
+    #no-more-tables td:before { 
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    #no-more-tables td:before { content: attr(data-title); }
+}
+.user-panel .image img {
+    max-width: 120px !important;
+}
+
+
+/****NO MORE TABLE CSS END****/

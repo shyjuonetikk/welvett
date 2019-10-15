@@ -1,0 +1,247 @@
+.header_bgnew {
+    background: #EFEFEF;
+    padding: 20px 0px;
+    height: 100px;
+}
+
+.profile_text_color {
+    color: #7c6166;
+}
+h1.profile_text_color {
+    font-weight: bold;
+}
+.profile_image{
+    border-radius: 50%;
+    border: 6px solid #791c2e;
+    height: 130px;
+}
+
+.white_color {
+    color: #fff;
+}
+
+#profile_header{
+    position: relative;
+}
+.pos_relative{
+    position: relative;
+}
+.pos_absolute{
+    position: absolute;
+    top: 30%;
+}
+.review_button{
+    border: none;
+    border-radius: 4px;
+    padding: 3px 20px;
+    margin-right: 15px;
+    background-color: #711a2a;
+    cursor: pointer;
+}
+.review_button i.fa{
+    font-size: 24px;
+    color: #fff;
+}
+.content_bg{
+    background: #EFEFEF;
+    padding: 25px 0px;
+}
+.border_right{
+   // border-right: 2px solid #3d2227;
+}
+
+#basic_info span, #basic_info input, #basic_info textarea, #basic_info select {
+    font-size: 12px;
+    color: #a7a7a7;
+    padding: 0px;
+}
+input {
+    border: none !important;
+    outline: 0;
+    border-bottom: 1px solid #a7a7a7 !important;
+    background: none;
+}
+textarea {
+    background: none;
+}
+
+#basic_info textarea {
+    background-color: #e6e6e6;
+}
+
+.icon_box{
+    display: inline-block;
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 12px;
+    border-radius: 20%;
+    text-align: center;
+    margin-right: 15px; 
+}
+.icon_box i.fa{
+    background-position: center center !important;
+    color: #fff;
+}
+.facebook{
+    background-color: #3b5998;
+}
+.twitter{
+    background-color: #48c4d2;
+}
+.instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.event_image{
+    border-radius: 50%;
+    height: 80px;
+    float: left;
+    margin-right: 15px;
+}
+
+#my_events p{
+    margin: 0px;
+    line-height: 18px !important;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.event_button{
+    border: none;
+    border-radius: 4px;
+    padding: 2px 30px;
+    background-color: #711a2a;
+    color: #fff;
+    font-size: 12px !important;
+    margin-top: 5px;
+}
+
+.add_review_button{
+    border: none;
+    border-radius: 4px;
+    padding: 2px 10px;
+    background-color: #711a2a;
+    color: #fff;
+    font-size: 11px !important;
+    margin-top: 5px;
+}
+
+.vertical_text {
+    transform: rotate(270deg); 
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 48px;   
+    letter-spacing: 5px;
+}
+
+#my_events strong{
+    font-size: 12px;
+}
+#my_events p{
+    font-size: 11px;
+}
+
+#my_events span{
+    font-size: 11px;
+    margin-top: 7px;
+}
+
+.review_textarea{
+    height: 45px;
+    background-color: #e6e6e6;
+}
+
+.edit_profile{
+    position: absolute;
+    bottom: 56px;
+    right: 55px;
+    padding: 7px;
+    background: #efefef;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.edit_info, .edit_service{
+    position: absolute;
+    bottom: -3px;
+    left: -30px;
+    padding: 5px;
+    background: #802335;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 10px;
+    color: #fff;
+}
+
+#search{
+    background: none;
+    border: none;
+}
+
+.jconfirm-scrollpane{
+    width: 100% !important;
+    left: 31% !important;
+}
+.jconfirm .jconfirm-box div.title-c .title{
+    color: #f44336; !important;
+
+}
+
+.jconfirm .jconfirm-box div.content-pane{
+    color: #5E5E5E !important;
+}
+
+.review_link {
+    padding: 15px 0px !important;
+    font-size: 24px !important;
+}
+
+#individual_review_page input, #individual_review_page span{
+    border: none !important;
+    font-size: 12px;
+    color: #a7a7a7;
+    padding: 0px;
+}
+
+/*footer color scheme scc start*/
+.customtemp-footer{
+    background-color: #7b1b2d !important;
+}
+#nav_menu-4, #text-5, #text-4, #nav_menu-4, #mks_social_boxr-5{
+    background-color: #7b1b2d !important;
+}
+#menu-customtemp-main-2 li a:hover{
+    color: #CECECE !important;
+}
+/*footer color scheme scc end*/
+.pd_lr_20 {
+    padding: 0px 20px;
+}
+.pd_top_20{
+    padding-top: 20px;
+}
+
+.box_shadow{
+    -webkit-box-shadow: 0px 1px 5px 2px rgba(221,221,221,0.8);
+    -moz-box-shadow: 0px 1px 5px 2px rgba(221,221,221,0.8);
+    box-shadow: 0px 1px 5px 2px rgba(221,221,221,0.8);
+}
+
+.user_images_parent {
+    display: inline-block; 
+    border-bottom: 1px solid #000; 
+    padding-bottom: 10px;
+}
+
+.user_images {
+    height: 41px;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    border-radius: 50%;
+}

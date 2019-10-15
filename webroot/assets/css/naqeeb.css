@@ -1,0 +1,197 @@
+.book_button{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #711A2A;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+.modal_btn{
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 2px;
+}
+#requestBooking{
+
+    background-color: #711A2A;
+}
+.custom_label{
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
+}
+.form-group{
+    margin-bottom: 0.5rem;
+}
+.modal_btn:hover{
+    color:white !important;
+    text-decoration: none;
+}
+.book_button:hover{
+    color:white !important;
+    text-decoration: none;
+}
+.event_type_label{
+    color:#D4C6C8 !important;
+    font-size: 14px;
+}
+.event_type_left_div{
+    background-color: #711A2A;
+    border-radius: 7px 0 0 7px;
+    padding: 5px 10px;
+}
+.event_type_right_div{
+    background-color: #D4C6C8;
+    border-radius: 0 7px 7px 0;
+    padding: 5px 10px;
+    text-align: center;
+    padding: 18px 0px;
+}
+.amount_style{
+    font-size: 20px;
+    font-weight: bold;
+    color: #511723;
+    vertical-align: text-top;
+}
+.custom_field{
+    border: none !important;
+    background-color: #ECECEC !important;
+    font-size: 14px !important;
+    padding: 7px !important;
+}
+.inc_dec_field{
+    margin: 0 7px !important;
+    width: 20% !important;
+    border: unset !important;
+    background-color: #717171;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding:0 !important;
+}
+.inc_dec{
+    margin-top: 8px;
+    border: none;
+    background-color: #717171;
+    color: white;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.modal_event_type{
+    background-color: #EBEBEB;
+    padding: 14px;
+    box-shadow: 2px 2px #ddd;
+}
+/*styling for calendar*/
+.table th, .table td {   
+    border-top: unset !important;
+}
+.table tr td {
+    background-color: #EBEBEB !important;
+    font-size: 12px !important;
+}
+div.zabuto_calendar .badge-event, div.zabuto_calendar div.legend span.badge-event {
+    background-color: #7B1A2D !important;
+}
+td.event > div.day > span.badge-event{
+    display: block !important;
+    height: 30px;
+    padding: 10px 0 !important;
+}
+td.event > div.day > a{
+    display: block !important;
+    height: 30px;
+    padding: 6px 0 !important;
+    color:white !important;
+}
+div.zabuto_calendar .table tr td.event div.day {
+    background-color: #28a745 !important;
+}
+td.event div.day span.badge-event a{
+    color:white !important;
+}
+td.event div.day{
+    padding: 0 !important;
+}
+div.zabuto_calendar .table tr.calendar-dow-header th {
+    background-color: #EBEBEB !important;
+}
+/*div.zabuto_calendar .table tr td.event div.day, div.zabuto_calendar ul.legend li.event {
+background-color: unset !important;
+}*/
+.table th, .table td {
+    font-size: 15px !important;
+    font-weight: inherit !important;
+}
+td span{
+    font-size: 16px;
+}
+.zabuto_calendar{
+    /*box-shadow: 0px 0px 6px 0px #aaaaaa !important;*/
+}
+.form-control{
+    border: none !important;
+
+}
+
+.input-group-text{
+    background-color: #711A2A !important;
+    color:white !important;
+    border:none;
+    border-radius: 0 0.25rem 0.25rem 0 !important;
+}
+.change-placeholder::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+
+}
+.change-placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    width: 75% !important;
+    float: left;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input-group-prepend{
+    height: 36px !important;
+}
+.booking_span{
+    padding: 10px;
+    background-color: #7B1B2D;
+    color: white;
+    border-radius: 3px;
+}
+.first_dashboard_save{
+    background-color: #7B1B2D;
+    color:white;
+    padding: 2px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.upgrade_to_pro:active{
+    background-color: #791C2F !important;
+}
+.upgrade_to_pro:focus{
+    background-color: #791C2F !important;
+}
+.breadcrumb{
+    margin-bottom: 0;
+    padding:5px;
+    float: right;
+    background-color: unset;
+}
+.breadcrumb li{
+    color:#511723;
+    font-size: 13px;
+}
+.breadcrumb li a{
+    color:#511723;
+    font-size: 13px;
+
+
+}
+.breadcrumb li.active{
+    color:gray;
+
+}

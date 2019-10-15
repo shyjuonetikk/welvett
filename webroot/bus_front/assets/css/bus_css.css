@@ -1,0 +1,429 @@
+body{
+    background-color: #fff;
+}
+.topnav{
+    background-color: transparent !important;
+    border-color: rgba(255,255,255,0.1) !important;
+    -webkit-box-shadow: 0 0px 0px 0 rgba(0,1,1,.1);
+    box-shadow: 0 0px 0px 0 rgba(0,1,1,.1);
+}
+.logo{
+    height: 35px;
+}
+li.nav-item a{
+    color: #fff !important;
+}
+.nav-item.active a{
+    color: #b68e5e !important;
+}
+li.nav-item a:hover{
+    color: #b68e5e !important;
+    background-color: transparent !important;
+}
+.top-search span:hover i, .customtemp-actions-button:hover i {
+
+    color: #b68e5e !important;
+
+}
+.top-search span i, .customtemp-actions-button i {
+
+    color: #fff !important;
+
+}
+.carousel .item {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#slider_container {
+
+    /*
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 600px;
+    */
+
+}
+#navbarResponsive{
+    margin-top: 13px;
+}
+
+.btn-custom{
+    background-color: #3D6DDD !important;
+}
+.btn-search{
+    background-color: #3D6DDD !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+.btn-custom:hover{
+    color: #fff !important;
+}
+a, h1, h2, h3, h4, h5, h6, div, p, span{
+    font-family: "fontello" !important;
+}
+.carousel-indicators li{
+    background-color: #fff !important;
+}
+.carousel-indicators li.active{
+    background-color: #3D6DDD !important;
+}
+
+.normat_font{
+    font-weight: normal !important;
+    font-size: 18px;
+}
+.black_color{
+    color: #000;
+}
+.input_new_style{
+    border-color: #e5e5e5 !important;
+    border-radius: 2em !important;
+    border: 1px solid;
+    padding: 0em 1.2em !important;
+    height: 40px !important;
+
+}
+
+.icon_bar::before{
+    content: '\e95f';
+    font-family: 'fontello';
+    color: #b68e5e !important;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 1.5em;
+}
+
+.paragraph{
+    font-size: 19px;
+}
+#sightseeing {
+    padding-top: 40px;
+}
+
+.pd_top_40{
+    padding-top: 40px;
+}
+.pd_30{
+    padding: 30px 0px;
+}
+.pd_bottom_10{
+    padding-bottom: 20px;
+}
+.price::after{
+    content: '\e962';
+    font-family: 'fontello';
+    position: absolute;
+    right: 0;
+    font-size: 15px;
+    color: #1c1d20;
+    margin-right: 15px;
+}
+
+
+a.black_color:hover{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.max_people .fa, .result_list .fa, .icon_color .fa, #tour_detail .fa{
+    color: #4692e7;
+}
+.price{
+    color: #4674e7;
+    font-weight: bold;
+}
+.footer{
+    background-color: #1e1d22;
+    color: #a6a6a6;
+    padding: 20px 0px;
+}
+.footer a:hover{
+    color: #fff !important;
+}
+.hr_bg{
+    background-color: #eee;
+}
+
+.customtemp-header-sticky-on .topnav {
+    position: fixed;
+    background-color: #25262c !important;
+
+}
+
+/*break point change to 992 px*/
+
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav {
+        display: block !important;
+    }
+
+    .sidemenubtn {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav, .top-search {
+        display: none !important;
+    }
+
+    .sidemenubtn {
+        display: block !important;
+    }
+}
+/*break point end*/
+
+@media only screen and (max-width: 767px) {
+
+
+}
+
+
+.bg{
+    height: 420px;
+    position: relative;
+    z-index: 0;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.1px 0;
+    margin-bottom: 3rem;
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+.bg > div{
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff !important;
+}
+.bg > div a{
+    color: #fff !important;
+}
+
+.light_gray_bg{
+    background-color: #F3F3F3;
+}
+.bg_white{
+    background-color: #fff;
+}
+.mg_bottom_30{
+    margin-bottom: 30px;
+}
+
+.btn + .btn, input[type="submit"] + .btn, .button + .btn {
+
+    margin-left: 0px !important;
+
+}
+a.btn-search:hover{
+    color: #fff !important;
+}
+
+textarea.form-control{
+    resize: none;
+}
+
+.btn-default {
+
+    background-color: #f4f4f4 !important;
+    color: #444 !important;
+    border-color: #ddd !important;
+    border-radius: 5px !important;
+
+}
+.padding_20{
+    padding: 20px !important;
+}
+
+
+/****NO MORE TABLE CSS START****/
+@media only screen and (max-width: 800px) {
+
+    /* Force table to not be like tables anymore */
+    #no-more-tables table, 
+    #no-more-tables thead, 
+    #no-more-tables tbody, 
+    #no-more-tables th, 
+    #no-more-tables td, 
+    #no-more-tables tr { 
+        display: block; 
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #no-more-tables thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #no-more-tables tr { border: 1px solid #ccc; }
+
+    #no-more-tables td { 
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 50%; 
+        white-space: normal;
+        text-align:left;
+    }
+
+    #no-more-tables td:before { 
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    #no-more-tables td:before { content: attr(data-title); }
+}
+form.label_margin label{
+    margin-top: 10px !important;
+}
+
+.red_border{
+    border: 1px solid red !important;
+}
+
+label.control-label::after{
+    content: '\*';
+    color: red;
+}
+
+
+.floatless2 {
+    position: absolute;
+    z-index: 99;
+    left: 20px;
+    width: 80%;
+    max-height: 270px;
+    overflow-y: auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #898989;
+    background-color: white;
+    display: block;
+    top: 59px;
+}
+
+.floatless2 span {
+
+    display: block;
+    line-height: 25px;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+
+.floatless3 {
+    position: absolute;
+    z-index: 99;
+    left: 20px;
+    width: 80%;
+    max-height: 270px;
+    overflow-y: auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #898989;
+    background-color: white;
+    display:block; 
+    top: 59px;
+
+}
+
+.floatless3 span {
+
+    display: block;
+    line-height: 25px;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+
+#departure_list span:hover, #arrival_list span:hover{
+    background-color: #d5d5d5;
+}
+
+#slides .slides-container {
+    display: block !important;
+}
+
+.custom-radios div {
+    display: inline-block;
+}
+.custom-radios input[type="radio"] {
+    display: none;
+}
+.custom-radios input[type="radio"] + label {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.custom-radios input[type="radio"] + label span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 44px;
+}
+.custom-radios input[type="radio"] + label span img {
+    opacity: 0;
+    transition: all .3s ease;
+}
+.custom-radios input[type="radio"]#color-1 + label span {
+    background-color: #fff;
+}
+
+.custom-radios input[type="radio"]:checked + label span {
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #4674e7 !important;
+}
+
+a[data-apply="confirmation"]::before{
+    content: '\f00c' !important;
+    font-family: 'fontAwesome' !important;
+}
+a[data-apply="confirmation"]:hover{
+    color: #fff !important;
+}
+a[data-apply="confirmation"] i{
+    display: none !important;
+}
+
+a[data-dismiss="confirmation"]::before{
+    content: '\f00d' !important;
+    font-family: 'fontAwesome' !important;
+}
+a[data-dismiss="confirmation"]:hover{
+    color: #444 !important;
+}
+a[data-dismiss="confirmation"] i{
+    display: none !important;
+}
